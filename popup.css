@@ -1,0 +1,9 @@
+.one-row {
+  width: 230px;
+  display: flex;
+  margin: 20px 20px;
+}
+
+.num-input {
+  margin: 0 10px;
+}
