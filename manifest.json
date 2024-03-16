@@ -3,15 +3,13 @@
   "name": "PixelTransformer",
   "version": "1.0",
   "description": "Pixel conversion tools for web development.",
-  "permissions": [
-  ],
-  "action": {
-    "default_popup": "popup.html"
-  },
-  "icons": {
-    "16": "icon/16.png",
-    "32": "icon/32.png",
-    "64": "icon/64.png",
-    "128": "icon/128.png"
-  }
+  "permissions": [],
+  "action": {"default_popup": "popup.html"},
+  "icons":
+    {
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "64": "icon/64.png",
+      "128": "icon/128.png"
+    }
 }

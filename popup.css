@@ -1,9 +1,48 @@
 .one-row {
-  width: 230px;
+  align-items: center;
+  width: 270px;
   display: flex;
   margin: 20px 20px;
 }
 
-.num-input {
+.root-input {
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.select {
+  background-color: #212121;
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.select:focus {
+  color: rgb(255, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+.input {
+  background-color: #212121;
+  color: rgb(255, 255, 255);
+  max-width: 190px;
   margin: 0 10px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid white;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.input:focus {
+  color: rgb(255, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
 }

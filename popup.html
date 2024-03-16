@@ -1,15 +1,27 @@
 <!doctype html>
-<html lang="zh" data-theme="dark">
+<html
+  lang="zh"
+  data-theme="dark"
+>
   <head>
     <title>PixelTransformer</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="stylesheet" href="popup.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <link
+      rel="stylesheet"
+      href="popup.css"
+    />
   </head>
   <body>
     <div class="one-row">
-      <select id="up">
+      <select id="up" class="select">
         <option value="px">px</option>
         <option value="em">em</option>
         <option value="rem">rem</option>
@@ -17,13 +29,25 @@
         <option value="pc">pc</option>
         <option value="in">in</option>
       </select>
-      <input type="number" id="upValue" placeholder="place input" class="num-input">
+      <input
+        type="number"
+        id="upValue"
+        placeholder="place input"
+        class="input"
+      />
+    </div>
+    <div class="root-input" id="rootInput" hidden="true">
+      root
+      <input
+        type="number"
+        id="rootValue"
+        placeholder="place input"
+        value="16"
+        class="input"
+      />px
     </div>
     <div class="one-row">
-      <input type="number" id="rootValue" placeholder="place input" value="16">px
-    </div>
-    <div class="one-row">
-      <select id="down">
+      <select id="down" class="select">
         <option value="px">px</option>
         <option value="em">em</option>
         <option value="rem">rem</option>
@@ -31,7 +55,12 @@
         <option value="pc">pc</option>
         <option value="in">in</option>
       </select>
-      <input type="number" id="downValue" placeholder="place input" class="num-input">
+      <input
+        type="number"
+        id="downValue"
+        placeholder="place input"
+        class="input"
+      />
     </div>
     <script src="popup.js"></script>
   </body>
